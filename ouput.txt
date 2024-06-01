@@ -1,0 +1,18 @@
+[2024-06-01 09:49:43 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+x x x x
+
+0 0 0 0
+
+0 0 0 1
+
+0 0 1 0
+
+0 0 0 1
+
+testbench.sv:49: $stop called at 255 (1s)
+** VVP Stop(0) **
+** Flushing output streams.
+** Current simulation time is 255 ticks.
+Execution interrupted or reached maximum runtime.
+Exit code expected: 0, received: 137
+Done
