@@ -1,0 +1,104 @@
+[2024-06-17 18:30:23 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+testbench.sv:29: warning: input port data_out is coerced to inout.
+testbench.sv:29: warning: input port data_out is coerced to inout.
+Time:                    0, clk: 0, reset: 1, write_en: 0, read_en: 0, data_in: 00, data_out: xx, empty: 1, full: 0
+Time:                    5, clk: 1, reset: 1, write_en: 0, read_en: 0, data_in: 00, data_out: xx, empty: 1, full: 0
+Time:                   10, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 00, data_out: xx, empty: 1, full: 0
+Time:                   15, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 00, data_out: xx, empty: 0, full: 0
+Time:                   20, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 01, data_out: xx, empty: 0, full: 0
+Time:                   25, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 01, data_out: xx, empty: 0, full: 0
+Time:                   30, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 02, data_out: xx, empty: 0, full: 0
+Time:                   35, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 02, data_out: xx, empty: 0, full: 0
+Time:                   40, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 03, data_out: xx, empty: 0, full: 0
+Time:                   45, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 03, data_out: xx, empty: 0, full: 0
+Time:                   50, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 04, data_out: xx, empty: 0, full: 0
+Time:                   55, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 04, data_out: xx, empty: 0, full: 0
+Time:                   60, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 05, data_out: xx, empty: 0, full: 0
+Time:                   65, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 05, data_out: xx, empty: 0, full: 0
+Time:                   70, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 06, data_out: xx, empty: 0, full: 0
+Time:                   75, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 06, data_out: xx, empty: 0, full: 0
+Time:                   80, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 07, data_out: xx, empty: 0, full: 0
+Time:                   85, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 07, data_out: xx, empty: 0, full: 0
+Time:                   90, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 08, data_out: xx, empty: 0, full: 0
+Time:                   95, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 08, data_out: xx, empty: 0, full: 0
+Time:                  100, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 09, data_out: xx, empty: 0, full: 0
+Time:                  105, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 09, data_out: xx, empty: 0, full: 0
+Time:                  110, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 0a, data_out: xx, empty: 0, full: 0
+Time:                  115, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 0a, data_out: xx, empty: 0, full: 0
+Time:                  120, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 0b, data_out: xx, empty: 0, full: 0
+Time:                  125, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 0b, data_out: xx, empty: 0, full: 0
+Time:                  130, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 0c, data_out: xx, empty: 0, full: 0
+Time:                  135, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 0c, data_out: xx, empty: 0, full: 0
+Time:                  140, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 0d, data_out: xx, empty: 0, full: 0
+Time:                  145, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 0d, data_out: xx, empty: 0, full: 0
+Time:                  150, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 0e, data_out: xx, empty: 0, full: 0
+Time:                  155, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 0e, data_out: xx, empty: 0, full: 0
+Time:                  160, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: 0f, data_out: xx, empty: 0, full: 0
+Time:                  165, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: 0f, data_out: xx, empty: 0, full: 1
+Time:                  170, clk: 0, reset: 0, write_en: 1, read_en: 0, data_in: ff, data_out: xx, empty: 0, full: 1
+Time:                  175, clk: 1, reset: 0, write_en: 1, read_en: 0, data_in: ff, data_out: xx, empty: 0, full: 1
+Time:                  180, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: xx, empty: 0, full: 1
+Time:                  185, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 00, empty: 0, full: 0
+Time:                  190, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 00, empty: 0, full: 0
+Time:                  195, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 01, empty: 0, full: 0
+Time:                  200, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 01, empty: 0, full: 0
+Time:                  205, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 02, empty: 0, full: 0
+Time:                  210, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 02, empty: 0, full: 0
+Time:                  215, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 03, empty: 0, full: 0
+Time:                  220, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 03, empty: 0, full: 0
+Time:                  225, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 04, empty: 0, full: 0
+Time:                  230, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 04, empty: 0, full: 0
+Time:                  235, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 05, empty: 0, full: 0
+Time:                  240, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 05, empty: 0, full: 0
+Time:                  245, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 06, empty: 0, full: 0
+Time:                  250, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 06, empty: 0, full: 0
+Time:                  255, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 07, empty: 0, full: 0
+Time:                  260, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 07, empty: 0, full: 0
+Time:                  265, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 08, empty: 0, full: 0
+Time:                  270, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 08, empty: 0, full: 0
+Time:                  275, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 09, empty: 0, full: 0
+Time:                  280, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 09, empty: 0, full: 0
+Time:                  285, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0a, empty: 0, full: 0
+Time:                  290, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0a, empty: 0, full: 0
+Time:                  295, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0b, empty: 0, full: 0
+Time:                  300, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0b, empty: 0, full: 0
+Time:                  305, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0c, empty: 0, full: 0
+Time:                  310, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0c, empty: 0, full: 0
+Time:                  315, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0d, empty: 0, full: 0
+Time:                  320, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0d, empty: 0, full: 0
+Time:                  325, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0e, empty: 0, full: 0
+Time:                  330, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0e, empty: 0, full: 0
+Time:                  335, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0f, empty: 0, full: 0
+Time:                  340, clk: 0, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: 0f, empty: 0, full: 0
+Time:                  345, clk: 1, reset: 0, write_en: 0, read_en: 1, data_in: ff, data_out: xx, empty: 1, full: 0
+Time:                  350, clk: 0, reset: 0, write_en: 0, read_en: 0, data_in: ff, data_out: xx, empty: 1, full: 0
+Time:                  355, clk: 1, reset: 0, write_en: 0, read_en: 0, data_in: ff, data_out: xx, empty: 1, full: 0
+Time:                  360, clk: 0, reset: 1, write_en: 0, read_en: 0, data_in: ff, data_out: xx, empty: 1, full: 0
+Time:                  365, clk: 1, reset: 1, write_en: 0, read_en: 0, data_in: ff, data_out: xx, empty: 1, full: 0
+Time:                  370, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 00, data_out: xx, empty: 1, full: 0
+Time:                  375, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 00, data_out: xx, empty: 0, full: 0
+Time:                  380, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 01, data_out: xx, empty: 0, full: 0
+Time:                  385, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 01, data_out: 00, empty: 0, full: 0
+Time:                  390, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 02, data_out: 00, empty: 0, full: 0
+Time:                  395, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 02, data_out: 01, empty: 0, full: 0
+Time:                  400, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 03, data_out: 01, empty: 0, full: 0
+Time:                  405, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 03, data_out: 02, empty: 0, full: 0
+Time:                  410, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 04, data_out: 02, empty: 0, full: 0
+Time:                  415, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 04, data_out: 03, empty: 0, full: 0
+Time:                  420, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 05, data_out: 03, empty: 0, full: 0
+Time:                  425, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 05, data_out: 04, empty: 0, full: 0
+Time:                  430, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 06, data_out: 04, empty: 0, full: 0
+Time:                  435, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 06, data_out: 05, empty: 0, full: 0
+Time:                  440, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 07, data_out: 05, empty: 0, full: 0
+Time:                  445, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 07, data_out: 06, empty: 0, full: 0
+Time:                  450, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 08, data_out: 06, empty: 0, full: 0
+Time:                  455, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 08, data_out: 07, empty: 0, full: 0
+Time:                  460, clk: 0, reset: 0, write_en: 1, read_en: 1, data_in: 09, data_out: 07, empty: 0, full: 0
+Time:                  465, clk: 1, reset: 0, write_en: 1, read_en: 1, data_in: 09, data_out: 08, empty: 0, full: 0
+testbench.sv:88: $stop called at 470 (1s)
+** VVP Stop(0) **
+** Flushing output streams.
+** Current simulation time is 470 ticks.
+Execution interrupted or reached maximum runtime.
+Exit code expected: 0, received: 137
+Done
