@@ -12,7 +12,7 @@ module FIFO(
   
   parameter DEPTH = 16;
   parameter DATA_WIDTH = 8;
-  parameter PTR_SIZE = 5;
+  parameter PTR_SIZE = 4;
   
   reg [DATA_WIDTH-1:0] memory [0:DEPTH - 1];
   reg [PTR_SIZE-1:0] wr_ptr;
@@ -43,8 +43,8 @@ module FIFO(
         begin
           if(reset)
             full_reg <= 0;
-          else if(write_en && (wr_ptr == rd_ptr))
-            full_reg <=1;
+          else if(write_en && wr_ptr == 4'b1111)
+            full_reg <= 1;
           else if (read_en && !empty_reg)
             full_reg <= 0;
         end
@@ -52,7 +52,7 @@ module FIFO(
       always @(posedge clk or posedge reset)
         begin
           if(reset)
-            rd_ptr <= 0;
+            rd_ptr <= -1;
           else if (read_en && !empty_reg)
             rd_ptr <= rd_ptr + 1;
         end
@@ -70,7 +70,7 @@ end
 
   
 //data retrieval
-      assign data_out = (empty_reg)? 'hx:memory[rd_ptr];
+      assign data_out = (empty_reg)? DATA_WIDTH-1'hx:memory[rd_ptr];
 
       //status outputs
       assign empty = empty_reg;
